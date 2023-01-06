@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSV File Reader</title>
+    <link rel="stylesheet" href="csvReader.css">
+    <script src="Chart.min.js"></script>
+    <script src="csvReader.js"></script>
+</head>
+
+<body onload="init()">
+    <div style=>
+        <h3>Photom Technologies Assignment</h3>
+        <h4 align-self="center">Reading data from CSV File and Displaying in the webpage </h5>
+        <h5 align-self="center">Made by Trisha Sahu</h5>
+    </div>
+    <div>
+
+        <input id="fileInput" type="file" name="file" />
+        <div id="fileContent"></div>
+        <div id="outerBox">
+            <div id="innerBox">
+                <div id="headerBox">
+                    <label>Chart Type</label>
+                    <select id="chartType">
+                        <option value="bar">Bar</option>
+                        <option value="pie">Pie</option>
+                        <option value="line">Line</option>
+                    </select>
+                    <input type='text' id='xAxis' placeholder="First Column Number..." />
+                    <input type='text' id='yAxis' placeholder="Second Column Number..." />
+                    <input type="button" value="Generate" onclick="generateChart(this);" />
+                    <input type="button" value="Close[X]" onclick="hideChart(this);" />
+                </div>
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

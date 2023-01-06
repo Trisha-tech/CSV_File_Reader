@@ -1,0 +1,36 @@
+
+#outerBox {
+    position: absolute;
+    top: 0;
+    right: 0;  bottom: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 0px;
+    width: 981px;
+    height: auto;
+    z-index: 0;
+    visibility: hidden;
+  } 
+  
+  #innerBox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 70px 140px 175px 140px;
+    padding : 30px;
+    width: 700px;
+    height: 500px;
+    background-color : azure;
+    visibility: hidden;
+    border: 2px solid black;
+    z-index: 1;
+  }
+
+ #headerBox {
+    border-block: inherit;
+    border-block-color: red;
+    padding-block: inherit;
+    margin-bottom: 10px;
+  }
