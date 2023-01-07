@@ -261,14 +261,14 @@ addCreateChartButton = (toolBar) => {
 
 //Make the chart button visible in the webpage
 enableChart = (button) => {
-    document.getElementById('bg_mask').style.visibility = 'visible';
-    document.getElementById('frontlayer').style.visibility = 'visible';
+    document.getElementById('outerBox').style.visibility = 'visible';
+    document.getElementById('innerBox').style.visibility = 'visible';
 }
 
 //Hide the button in the webpage
 hideChart = (button) => {
-    document.getElementById('bg_mask').style.visibility = 'hidden';
-    document.getElementById('frontlayer').style.visibility = 'hidden';
+    document.getElementById('outerBox').style.visibility = 'hidden';
+    document.getElementById('innerBox').style.visibility = 'hidden';
 }
 
 //Add another column in the table
