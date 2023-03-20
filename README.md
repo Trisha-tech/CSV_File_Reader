@@ -47,17 +47,23 @@ This project named **CSV File Reader** is designed to read the data from the csv
 ![Screenshot (4640)](https://user-images.githubusercontent.com/55338588/225989792-acab0b7e-dd42-47ff-ace3-cac36c0e11c9.png)
 
 
+**Add Row:**
+
 ![Screenshot (4641)](https://user-images.githubusercontent.com/55338588/225989796-2230dbfe-be7e-42e2-803c-73074556944d.png)
 
 
 ![Screenshot (4642)](https://user-images.githubusercontent.com/55338588/226131709-834b93da-c27c-4e26-9f9b-8f8aedafde9a.png)
 
 
+**Add Column:**
+
 ![Screenshot (4643)](https://user-images.githubusercontent.com/55338588/226131858-c347302d-8171-4390-a033-f3836733718d.png)
 
 
 ![Screenshot (4644)](https://user-images.githubusercontent.com/55338588/226131865-d966f4d2-c255-4d4b-94ed-1689d864226a.png)
 
+
+**Edit Entry:**
 
 ![Screenshot (4645)](https://user-images.githubusercontent.com/55338588/226199604-ccca25be-28d1-41cf-8949-acec16a6310a.png)
 
